@@ -1,3 +1,5 @@
+
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -33,7 +35,7 @@ spec:
         kubernetes.io/hostname: k8s-master
       containers:
         - name: api-tester-2121
-          image: baekjonghun/api-tester:v1.0.0
+          image: whdgns6282@naver.com/api-tester:v1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
